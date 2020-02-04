@@ -19,5 +19,13 @@
       <Folder Include="Migrations" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Items\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Items\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Items\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Items\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Items\Index.cshtml" />
+    </ItemGroup>
+
 
 </Project>

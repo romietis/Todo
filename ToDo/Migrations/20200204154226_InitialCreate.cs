@@ -13,7 +13,7 @@ namespace WebApplication.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
                     Due = table.Column<DateTime>(nullable: false),
                     Priority = table.Column<int>(nullable: false)
                 },

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Project.Data;
 using Project.Models;
 
-namespace WebApplication.Pages.Items
+namespace ToDo.Pages.Items
 {
     public class IndexModel : PageModel
     {

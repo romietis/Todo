@@ -9,7 +9,7 @@ using Project.Data;
 namespace WebApplication.Migrations
 {
     [DbContext(typeof(ItemsContext))]
-    [Migration("20200204134624_InitialCreate")]
+    [Migration("20200204154226_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +28,7 @@ namespace WebApplication.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Priority")
